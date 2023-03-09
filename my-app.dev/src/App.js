@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { ToDoListRow } from './components/App.styles';
+import { ToDoList } from './components/App.styles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ToDoList>
+      <ToDoListRow>Wyrzuć śmieci</ToDoListRow>
+      <ToDoListRow>Odkurz mieszkanie</ToDoListRow>
+      <ToDoListRow>Zrób ciemne pranie</ToDoListRow>
+      <ToDoListRow>Zrób jasne pranie</ToDoListRow>
+      <ToDoListRow>Umyj prysznić</ToDoListRow>
+      <ToDoListRow>Usuń kamień z czajnika</ToDoListRow>
+      </ToDoList>
   );
 }
 

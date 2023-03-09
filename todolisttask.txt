@@ -1,0 +1,3 @@
+Spróbuj na tym etapie wykonać prostą aplikację do zarządzania zadaniami, zadania na liście powinieneś móc w wersji "minimum" dodać oraz usunąć. W wersji rozszerzonej dodaj funkcjonalności:
+edycji zadania
+filtrowania zadania
