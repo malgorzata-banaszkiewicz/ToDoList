@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	font: inherit;
+	box-sizing: border-box;
+}
+
+img,
+audio,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	background-image: url(./skopiuj-roze-przestrzeni.jpg);
+	background-size: cover;
+}
+
+::placeholder {
+	color: #fff;
+	font-family: "Fraunces", serif;
+}
+
+input,
+select,
+textarea {
+	color: #fff;
+	font-family: "Fraunces", serif;
+}
